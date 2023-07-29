@@ -1,7 +1,6 @@
 {
   "quizQuestions": [
     {
-      "category": "React",
       "question": "What is React?",
       "options": [
         "A JavaScript framework for building user interfaces.",
@@ -9,10 +8,10 @@
         "A database management system.",
         "An operating system for mobile devices."
       ],
-      "answer": 0
+      "answer": 0,
+      "points": 10
     },
     {
-      "category": "React",
       "question": "What is JSX in React?",
       "options": [
         "A programming language.",
@@ -20,83 +19,32 @@
         "A syntax extension for JavaScript used in React.",
         "A package manager for Node.js."
       ],
-      "answer": 2
+      "answer": 2,
+      "points": 20
     },
     {
-      "category": "JavaScript",
       "question": "What is the output of the following code?\n\nconsole.log(2 + '2');",
-      "options": ["22", "4", "TypeError", "NaN"],
-      "answer": 0
+      "options": [
+        "22",
+        "4",
+        "TypeError",
+        "NaN"
+      ],
+      "answer": 0,
+      "points": 10
     },
     {
-      "category": "JavaScript",
       "question": "Which keyword is used to declare a variable in JavaScript with block scope?",
-      "options": ["var", "let", "const", "variable"],
-      "answer": 1
-    },
-    {
-      "category": "React",
-      "question": "How do you create a new React component using a function?",
       "options": [
-        "class MyComponent extends React.Component {}",
-        "function MyComponent() {}",
-        "const MyComponent = () => {}",
-        "componentDidMount() {}"
+        "var",
+        "let",
+        "const",
+        "variable"
       ],
-      "answer": 2
+      "answer": 1,
+      "points": 20
     },
     {
-      "category": "React",
-      "question": "What is the purpose of state in React?",
-      "options": [
-        "To pass data from parent to child components.",
-        "To manage a component's internal data and handle changes.",
-        "To handle events in a React app.",
-        "To store static data in a React app."
-      ],
-      "answer": 1
-    },
-    {
-      "category": "React",
-      "question": "What is the purpose of 'key' prop in React when rendering a list of elements?",
-      "options": [
-        "To specify the index of each element in the list.",
-        "To uniquely identify each element in the list.",
-        "To define the order of elements in the list.",
-        "To create a custom attribute for each element in the list."
-      ],
-      "answer": 1
-    },
-    {
-      "category": "React",
-      "question": "What hook in React is used to perform side effects, such as data fetching?",
-      "options": ["useEffect", "useState", "useReducer", "useContext"],
-      "answer": 0
-    },
-    {
-      "category": "JavaScript",
-      "question": "What is the correct way to check if an element exists in an array?",
-      "options": [
-        "array.includes(element)",
-        "array.exists(element)",
-        "array.indexOf(element) !== -1",
-        "array.has(element)"
-      ],
-      "answer": 2
-    },
-    {
-      "category": "JavaScript",
-      "question": "Which built-in method can be used to convert a string to uppercase?",
-      "options": [
-        "toUpperCase()",
-        "upperCase()",
-        "toUppercase()",
-        "caseUpper()"
-      ],
-      "answer": 0
-    },
-    {
-      "category": "JavaScript",
       "question": "Which of the following is NOT a valid way to declare a JavaScript function?",
       "options": [
         "function myFunction() {}",
@@ -104,10 +52,10 @@
         "const myFunction = () => {}",
         "let myFunction = function() {}"
       ],
-      "answer": 3
+      "answer": 3,
+      "points": 20
     },
     {
-      "category": "React",
       "question": "What is the purpose of React Fragments?",
       "options": [
         "To group multiple components together.",
@@ -115,10 +63,43 @@
         "To define reusable styles in a React app.",
         "To wrap child elements without adding extra nodes to the DOM."
       ],
-      "answer": 3
+      "answer": 3,
+      "points": 30
     },
     {
-      "category": "React",
+      "question": "What hook in React is used to perform side effects, such as data fetching?",
+      "options": [
+        "useEffect",
+        "useState",
+        "useReducer",
+        "useContext"
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of 'key' prop in React when rendering a list of elements?",
+      "options": [
+        "To specify the index of each element in the list.",
+        "To uniquely identify each element in the list.",
+        "To define the order of elements in the list.",
+        "To create a custom attribute for each element in the list."
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A way to create private variables in a function.",
+        "A loop that iterates over an array.",
+        "A way to declare variables with const keyword.",
+        "A data structure for storing multiple values."
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
       "question": "In React, how do you pass data from a parent component to a child component?",
       "options": [
         "Using the 'setState' method.",
@@ -126,16 +107,43 @@
         "Using the 'state' attribute.",
         "Using the 'getChildContext' method."
       ],
-      "answer": 1
+      "answer": 1,
+      "points": 20
     },
     {
-      "category": "JavaScript",
+      "question": "Which built-in method can be used to convert a string to uppercase?",
+      "options": [
+        "toUpperCase()",
+        "upperCase()",
+        "toUppercase()",
+        "caseUpper()"
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the correct syntax for a multi-line arrow function in JavaScript?",
+      "options": [
+        "const myFunction = () => { return 'Hello'; }",
+        "const myFunction = () => 'Hello';",
+        "const myFunction = () => { 'Hello'; }",
+        "const myFunction = () => { return { 'Hello' }; }"
+      ],
+      "answer": 0,
+      "points": 20
+    },
+    {
       "question": "What does the 'typeof' operator return when used on an array?",
-      "options": ["array", "object", "array", "function"],
-      "answer": 1
+      "options": [
+        "array",
+        "object",
+        "array",
+        "function"
+      ],
+      "answer": 1,
+      "points": 10
     },
     {
-      "category": "React",
       "question": "What is the purpose of 'useReducer' hook in React?",
       "options": [
         "To handle side effects in a React app.",
@@ -143,13 +151,173 @@
         "To fetch data from an external API.",
         "To access the Redux store in a React app."
       ],
-      "answer": 1
+      "answer": 1,
+      "points": 20
     },
     {
-      "category": "JavaScript",
+      "question": "What is the output of the following code?\n\nconst x = 10;\nconst y = x++ + ++x;",
+      "options": [
+        "10",
+        "20",
+        "21",
+        "22"
+      ],
+      "answer": 2,
+      "points": 20
+    },
+    {
       "question": "What does the 'NaN' stand for in JavaScript?",
-      "options": ["Not a Node", "Now a Number", "Not a Null", "Not a Number"],
-      "answer": 3
+      "options": [
+        "Not a Node",
+        "Now a Number",
+        "Not a Null",
+        "Not a Number"
+      ],
+      "answer": 3,
+      "points": 10
+    },
+    {
+      "question": "How do you define a default parameter value in a JavaScript function?",
+      "options": [
+        "function myFunction(param = defaultValue) {}",
+        "function myFunction(param: defaultValue) {}",
+        "function myFunction(param => defaultValue) {}",
+        "function myFunction(param => { defaultValue }) {}"
+      ],
+      "answer": 0,
+      "points": 20
+    },
+    {
+      "question": "Which array method is used to join all elements of an array into a single string?",
+      "options": [
+        "join()",
+        "concat()",
+        "map()",
+        "reduce()"
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the output of the following code?\n\nconsole.log(typeof typeof 1);",
+      "options": [
+        "number",
+        "string",
+        "undefined",
+        "TypeError"
+      ],
+      "answer": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of 'async/await' in JavaScript?",
+      "options": [
+        "To define asynchronous functions.",
+        "To handle errors in try-catch blocks.",
+        "To create recursive functions.",
+        "To define arrow functions."
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the correct way to check if an element exists in an array?",
+      "options": [
+        "array.includes(element)",
+        "array.exists(element)",
+        "array.indexOf(element) !== -1",
+        "array.has(element)"
+      ],
+      "answer": 2,
+      "points": 20
+    },
+    {
+      "question": "What hook in React is used to run a piece of code only once after the component has rendered?",
+      "options": [
+        "useEffect",
+        "useMemo",
+        "useReducer",
+        "useCallback"
+      ],
+      "answer": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of 'useContext' hook in React?",
+      "options": [
+        "To manage and update state in a more complex way.",
+        "To access the Redux store in a React app.",
+        "To provide a way to pass data through the component tree without having to pass props down manually at every level.",
+        "To handle side effects in a React app."
+      ],
+      "answer": 2,
+      "points": 20
+    },
+    {
+      "question": "Which of the following is NOT a valid way to define a variable in JavaScript?",
+      "options": [
+        "let",
+        "var",
+        "const",
+        "int"
+      ],
+      "answer": 3,
+      "points": 10
+    },
+    {
+      "question": "In React, what is the recommended way to update the state that depends on the previous state?",
+      "options": [
+        "Using the 'setState' method with a callback function.",
+        "Using the 'forceUpdate' method.",
+        "Directly modifying the state using 'this.state'.",
+        "Using the 'props' attribute."
+      ],
+      "answer": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the output of the following code?\n\nconsole.log(Math.min([2, 5, 1, 8, 3]));",
+      "options": [
+        "2",
+        "5",
+        "1",
+        "undefined"
+      ],
+      "answer": 3,
+      "points": 20
+    },
+    {
+      "question": "Which method is used to remove the last element from an array and return that element?",
+      "options": [
+        "shift()",
+        "splice()",
+        "unshift()",
+        "pop()"
+      ],
+      "answer": 3,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of 'Object.keys()' method in JavaScript?",
+      "options": [
+        "To return an array of a given object's property names.",
+        "To check if a property exists in an object.",
+        "To sort the properties of an object.",
+        "To merge two objects into one."
+      ],
+      "answer": 0,
+      "points": 20
+    },
+    {
+      "question": "In React, what is the use of 'propTypes'?",
+      "options": [
+        "To define the type of the component's state.",
+        "To set default prop values for a component.",
+        "To perform type-checking on the props passed to a component.",
+        "To specify the required props for a component."
+      ],
+      "answer": 2,
+      "points": 20
     }
   ]
 }
