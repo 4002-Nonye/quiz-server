@@ -318,6 +318,16 @@
       ],
       "answer": 2,
       "points": 20
+    }, {
+      "question": "What is the 'this' keyword in JavaScript?",
+      "options": [
+        "A reserved keyword to declare variables.",
+        "A keyword used to call functions.",
+        "A reference to the current execution context.",
+        "A keyword to create new objects."
+      ],
+      "answer": 2,
+      "points": 30
     }
   ]
 }
